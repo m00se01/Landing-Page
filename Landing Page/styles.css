@@ -25,22 +25,26 @@ h1{
 
 .links{
     display:flex;
+    flex-shrink: 0;
 }
 
 .right-links{
     display:flex;
+    flex-shrink: 0;
     justify-content: flex-end;
     align-items: center;
     padding: 8px;
+    padding-right:150px;
     margin: auto;
     margin-right:0;
-    gap:10px;
+    gap:15px;
 }
 
 
 .logo{
     font-size:24px;
     color:#F9FAF8;
+    flex-shrink: 0;
   }
   
     /* Section 1: Hero Section */
@@ -121,14 +125,22 @@ h1{
 /* Section 3: Quote */
 
 
-.quote{
+.quote-section{
     font-size: 36px;
     background-color:#E5E7EB ;
     padding:50px 150px;
-    display: inline-block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.quote p{
+.quote-container{
+   padding:20px;
+   margin:10px;
+   width: 800px;
+}
+
+.quote-section p {
   font-style: italic;
   text-align: center;
 }
@@ -147,6 +159,8 @@ h1{
     display: flex;
     justify-content: center;
     padding:20px 150px;
+    margin-top:20px;
+    margin-bottom:50px;
     padding-top: 50px;
     color:#E5E7EB;
     font-size:20px;
@@ -180,4 +194,17 @@ h5{
 
 .left-side-card{
     padding-right:150px;
+}
+
+footer{
+    padding:20px 150px;
+    margin: auto;
+    text-align: center;
+    font-size:16px;
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+}
+
+footer p{
+    padding:20px;
 }
