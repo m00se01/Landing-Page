@@ -43,9 +43,8 @@ h1{
     color:#F9FAF8;
   }
   
-    /**
-    Hero Section
-    **/
+    /* Section 1: Hero Section */
+
 .hero{
     display: flex;
     margin-top:90px;
@@ -84,12 +83,11 @@ h1{
     height:300px;
 }
 
-    /** Section 2
-        Card info
-    **/
+    /* Section 2: Card info */
 
 .web-info{
     color:#1F2937;
+    padding:20px 150px;
     padding-top:20px;
 }
 
@@ -105,8 +103,39 @@ h1{
     align-items: center;
     gap:10px;
     padding:20px;
+    margin: 20px 50px 50px 50px;
 }
 
 .card{
+    width:200px;
+    height:200px;
     margin:8px;
+}
+
+.card p{
+    max-width: 150px;
+    text-align: center;
+}
+
+/* Section 3: Quote */
+
+
+.quote{
+    font-size: 36px;
+    background-color:#E5E7EB ;
+    padding:50px 150px;
+    display: inline-block;
+}
+
+.quote p{
+  font-style: italic;
+  text-align: center;
+}
+
+.quote-author{
+    display: block;
+    padding-top:5px;
+    font-size:36px;
+    font-weight: bold;
+    text-align: center;
 }
