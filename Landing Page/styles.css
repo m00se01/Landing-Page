@@ -63,10 +63,11 @@ h1{
     margin:8px;
     padding:8px;
     background-color:#3882F6 ;
-    color:white;
+    color:#E5E7EB;
     border-radius: 10px;
     width:100px;
     height:35px;
+    font-weight: bold;
 }
 
 .hero p{
@@ -88,7 +89,7 @@ h1{
 .web-info{
     color:#1F2937;
     padding:20px 150px;
-    padding-top:20px;
+    padding-top:50px;
 }
 
 .web-info h2{
@@ -138,4 +139,45 @@ h1{
     font-size:36px;
     font-weight: bold;
     text-align: center;
+}
+
+/* Section 4: Sign up */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    padding:20px 150px;
+    padding-top: 50px;
+    color:#E5E7EB;
+    font-size:20px;
+}
+
+h5{
+    font-size:25px;
+}
+
+.content-container{
+    display:flex;
+    gap:10px;
+    border-radius: 10px;
+    background-color:#3882F6;
+    padding:50px 200px;    
+}
+
+.signup-btn{
+    font-weight: bold;
+    font-size:15px;
+    border-color: #E5E7EB;
+    margin:8px;
+    padding:8px;
+    background-color:#3882F6 ;
+    color:#E5E7EB;
+    border-radius: 10px;
+    width:120px;
+    height:35px;
+    border-style: solid;
+}
+
+.left-side-card{
+    padding-right:150px;
 }
