@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;    
+}
+
+header{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding:20px 150px;
+    padding-bottom: 50px;
+}
+
+li,a {
+    font-size:18px;
+    color:#E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1{
+    font-size:48px;
+    font-weight: bolder;
+}
+
+.links{
+    display:flex;
+}
+
+.right-links{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-right:0;
+    gap:10px;
+}
+
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+  }
+  
+    /**
+    Hero Section
+    **/
+.hero{
+    display: flex;
+    margin-top:90px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    flex-shrink:0;
+    gap:8px;
+    align-items: baseline;
+}
+
+.hero-btn{
+    border:none;
+    margin:8px;
+    padding:8px;
+    background-color:#3882F6 ;
+    color:white;
+    border-radius: 10px;
+    width:100px;
+    height:35px;
+}
+
+.hero p{
+    font-size:18px;
+    width:500px;
+}
+
+.hero-right{
+    margin:auto;
+}
+
+.hero-img{
+    width: 450px;
+    height:300px;
+}
+
+    /** Section 2
+        Card info
+    **/
+
+.web-info{
+    color:#1F2937;
+    padding-top:20px;
+}
+
+.web-info h2{
+    font-size: 36px;
+    font-weight:extra-bold;
+    text-align:center;
+}
+
+.info-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:20px;
+}
+
+.card{
+    margin:8px;
+}
